@@ -1,0 +1,27 @@
+{
+  "name": "synapsedynamics",
+  "version": "1.0.0",
+  "description": "SynapseDynamics - Artificial Intelligence and Technology Solutions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "artificial intelligence",
+    "machine learning",
+    "computer vision",
+    "technology"
+  ],
+  "author": "SynapseDynamics",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "lucide": "^1.76.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

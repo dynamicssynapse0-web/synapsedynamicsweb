@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | SynapseDynamics</title>
+
+    <meta name="description"
+        content="Contactez SynapseDynamics pour vos projets d'intelligence artificielle, de Computer Vision, d'automatisation et de développement technologique.">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <%- include('../partials/header') %>
+
+    <main>
+
+        <!-- HERO CONTACT -->
+        <section class="contact-hero">
+
+            <div class="contact-hero-content">
+
+                <span class="section-tag">CONTACTEZ-NOUS</span>
+
+                <h1>
+                    Construisons ensemble
+                    <span>l'avenir de la technologie.</span>
+                </h1>
+
+                <p>
+                    Vous avez une idée, un projet innovant ou un défi
+                    technologique ? Notre équipe est prête à échanger
+                    avec vous.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT PRINCIPAL -->
+        <section class="contact-section">
+
+            <div class="container contact-grid">
+
+                <!-- INFORMATIONS -->
+                <div class="contact-information">
+
+                    <span class="section-tag">ÉCHANGEONS</span>
+
+                    <h2>
+                        Parlons de votre
+                        <span>prochain projet.</span>
+                    </h2>
+
+                    <p class="contact-description">
+                        Que vous soyez une entreprise, une organisation,
+                        un chercheur ou un porteur de projet, nous sommes
+                        intéressés par les idées ambitieuses et les défis
+                        technologiques.
+                    </p>
+
+
+                    <!-- EMAIL -->
+                    <div class="contact-info-item">
+
+                        <div class="contact-info-icon">
+                            @
+                        </div>
+
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:synapsesdynamics@gmail.com">
+                                synapsesdynamics@gmail.com
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <!-- LOCALISATION -->
+                    <div class="contact-info-item">
+
+                        <div class="contact-info-icon">
+                            ◉
+                        </div>
+
+                        <div>
+                            <h3>Localisation</h3>
+                            <p>Douala, Cameroun</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- ACTIVITÉ -->
+                    <div class="contact-info-item">
+
+                        <div class="contact-info-icon">
+                            S
+                        </div>
+
+                        <div>
+                            <h3>Notre domaine</h3>
+                            <p>
+                                Intelligence artificielle,
+                                recherche et innovation technologique.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- MESSAGE -->
+                    <div class="contact-highlight">
+
+                        <span>SY NAPSE DYNAMICS</span>
+
+                        <p>
+                            Building Intelligence.
+                            Shaping Tomorrow.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORMULAIRE -->
+                <div class="contact-form-container">
+
+                    <div class="contact-form-heading">
+
+                        <h2>Envoyez-nous un message</h2>
+
+                        <p>
+                            Décrivez-nous votre projet.
+                            Nous serons ravis d'en discuter avec vous.
+                        </p>
+
+                    </div>
+
+
+                    <form class="contact-form" action="/contact" method="POST">
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="name">Nom complet</label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="Votre nom"
+                                    required>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="email">Adresse email</label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="exemple@email.com"
+                                    required>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="subject">Sujet</label>
+
+                            <select id="subject" name="subject" required>
+
+                                <option value="">Sélectionnez un sujet</option>
+
+                                <option value="Intelligence artificielle">
+                                    Intelligence artificielle
+                                </option>
+
+                                <option value="Computer Vision">
+                                    Computer Vision
+                                </option>
+
+                                <option value="Data Science">
+                                    Data Science
+                                </option>
+
+                                <option value="Automatisation">
+                                    Automatisation
+                                </option>
+
+                                <option value="Partenariat">
+                                    Partenariat
+                                </option>
+
+                                <option value="Autre demande">
+                                    Autre demande
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">Votre message</label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Parlez-nous de votre projet..."
+                                required></textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="contact-submit">
+
+                            Envoyer le message
+
+                            <span>↗</span>
+
+                        </button>
+
+                        <p class="form-privacy">
+                            Vos informations seront utilisées uniquement
+                            pour répondre à votre demande.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECTION FINALE -->
+        <section class="contact-bottom">
+
+            <div class="container">
+
+                <span class="section-tag">SYNAPSEDYNAMICS</span>
+
+                <h2>
+                    L'innovation commence
+                    <span>par une conversation.</span>
+                </h2>
+
+                <p>
+                    Donnons vie à vos idées grâce à la technologie
+                    et à l'intelligence artificielle.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <%- include('../partials/footer') %>
+
+</body>
+</html>
