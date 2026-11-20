@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const BASE_URL = process.env.BASE_URL || 'https://synapsedynamics.vercel.app';
+const BASE_URL = process.env.BASE_URL || 'https://synapsedynamicsweb.vercel.app';
 
 app.get('/', (req, res) => {
   res.render('pages/home', {
