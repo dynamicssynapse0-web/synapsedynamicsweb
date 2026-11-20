@@ -2787,3 +2787,56 @@ body {
         gap: 10px;
     }
 }
+
+/* =================================
+   LOGO SYNAPSEDYNAMICS - NEURAL NET
+================================= */
+.logo-icon {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    background-color: #071426 !important;
+
+    border: 1px solid rgba(0, 212, 255, 0.5);
+    border-radius: 10px;
+
+    box-shadow: 0 0 14px rgba(0, 212, 255, 0.2);
+}
+
+/* Réseau neuronal */
+
+.neural-network {
+    position: absolute;
+    inset: 0;
+
+    background-image:
+        radial-gradient(circle at 15% 20%, #00D4FF 2px, transparent 2.5px),
+        radial-gradient(circle at 80% 15%, #1769FF 2px, transparent 2.5px),
+        radial-gradient(circle at 25% 75%, #00D4FF 2px, transparent 2.5px),
+        radial-gradient(circle at 85% 80%, #00D4FF 2px, transparent 2.5px),
+        radial-gradient(circle at 50% 10%, #1769FF 1.5px, transparent 2px),
+        radial-gradient(circle at 50% 90%, #1769FF 1.5px, transparent 2px),
+
+        linear-gradient(35deg, transparent 49%, rgba(0,212,255,0.8) 50%, transparent 51%),
+        linear-gradient(145deg, transparent 49%, rgba(23,105,255,0.9) 50%, transparent 51%),
+        linear-gradient(90deg, transparent 49%, rgba(0,212,255,0.5) 50%, transparent 51%);
+
+    opacity: 0.9;
+}
+
+/* Lettre S */
+
+.logo-letter {
+    position: relative;
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 800;
+    text-shadow: 0 0 8px rgba(0, 212, 255, 0.8);
+}
