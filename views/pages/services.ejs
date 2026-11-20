@@ -1,21 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Nos Services | SynapseDynamics</title>
-
-    <meta name="description" content="Découvrez les services de SynapseDynamics : intelligence artificielle, machine learning, computer vision, automatisation et développement de solutions intelligentes.">
-
-    <link rel="stylesheet" href="/css/style.css">
+  <%- include('../partials/head', { title, description, url }) %>
 </head>
-
 <body>
 
     <!-- HEADER -->
-    <%- include('../partials/header') %>
+  <%- include('../partials/header', { page }) %>
 
     <main>
 
@@ -134,6 +125,7 @@
 
     <!-- FOOTER -->
     <%- include('../partials/footer') %>
+    <script src="/js/main.js" defer></script>
 
 </body>
 </html>

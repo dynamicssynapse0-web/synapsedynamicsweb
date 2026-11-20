@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://synapsedynamics.vercel.app/sitemap.xml

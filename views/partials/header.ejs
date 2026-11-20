@@ -10,11 +10,11 @@
         </a>
 
         <nav class="main-nav" id="main-nav">
-            <a href="/" class="active">Accueil</a>
-            <a href="/about">À propos</a>
-            <a href="/services">Services</a>
-            <a href="/projects">Réalisations</a>
-            <a href="/contact">Contact</a>
+            <a href="/" class="<%= page === 'home' ? 'active' : '' %>">Accueil</a>
+            <a href="/about" class="<%= page === 'about' ? 'active' : '' %>">À propos</a>
+            <a href="/services" class="<%= page === 'services' ? 'active' : '' %>">Services</a>
+            <a href="/projects" class="<%= page === 'projects' ? 'active' : '' %>">Réalisations</a>
+            <a href="/contact" class="<%= page === 'contact' ? 'active' : '' %>">Contact</a>
         </nav>
 
         <a href="/contact" class="header-cta">
@@ -31,4 +31,3 @@
 
     </div>
 </header>
-<script src="/js/main.js" defer></script>

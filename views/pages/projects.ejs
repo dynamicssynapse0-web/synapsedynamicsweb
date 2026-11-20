@@ -2,20 +2,12 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Nos réalisations | SynapseDynamics</title>
-
-    <meta name="description"
-        content="Découvrez les projets, innovations et solutions technologiques développés par SynapseDynamics dans les domaines de l'intelligence artificielle, de la vision par ordinateur et de l'automatisation.">
-
-    <link rel="stylesheet" href="/css/style.css">
+  <%- include('../partials/head', { title, description, url }) %>
 </head>
 
 <body>
 
-    <%- include('../partials/header') %>
+   <%- include('../partials/header', { page }) %>
 
     <main>
 
